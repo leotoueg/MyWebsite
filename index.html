@@ -9,6 +9,23 @@
     <link rel="icon" type="image/webp" href="assets/img/favicon.webp">
 </head>
 <body>
+    <div id="vanta-canvas"></div>
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.rings.min.js"></script>
+    <script> type="text/javascript">
+        VANTA.RINGS({
+            el: "#your-element-selector",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x7200e,
+            color: 0xffecb9
+        })
+</script>
 <div id="main">
     <div class="pc">
         <video id="video" poster="assets/img/bg.jpg" muted loop>
